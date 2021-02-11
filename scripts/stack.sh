@@ -30,7 +30,7 @@ aws --region eu-west-1 cloudformation update-stack --stack-name AuroraHAServerle
 aws --region eu-west-1 cloudformation create-stack --stack-name AuroraHAProvisionedStack --template-body file://state/rds-aurora.yaml --parameters file://state/rds-aurora_param_prod.json
 aws --region eu-west-1 cloudformation update-stack --stack-name AuroraHAProvisionedStack --template-body file://state/rds-aurora.yaml --parameters file://state/rds-aurora_param_prod.json
 
-
+#DMS
 aws --region eu-west-1 cloudformation create-stack --stack-name DMSHAStack --template-body file://dms/dms.yaml --parameters file://dms/dms_param_prod.json --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
 aws --region eu-west-1 cloudformation update-stack --stack-name DMSHAStack --template-body file://dms/dms.yaml --parameters file://dms/dms_param_prod.json --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
 

@@ -63,7 +63,7 @@ Resources:
     Type: "AWS::IAM::Role"
     #Condition: "NotExistsDMSVPCRole"
     Properties: 
-      RoleName: "dms-vpc-role-ha"
+      RoleName: "dms-vpc-role"
       AssumeRolePolicyDocument: 
         Statement: 
         - Effect: Allow
