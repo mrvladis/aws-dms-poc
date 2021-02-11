@@ -1,0 +1,18 @@
+[
+    {
+        "ParameterKey": "ParentVPCStack",
+        "ParameterValue": "VPCStack"
+    },
+    {
+        "ParameterKey": "ParentAlertStack",
+        "ParameterValue": "AlertsStack"
+    },
+    {
+        "ParameterKey": "Environment",
+        "ParameterValue": "Production"
+    },
+    {
+        "ParameterKey": "SubnetZone",
+        "ParameterValue": "A"
+    }
+]

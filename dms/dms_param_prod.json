@@ -1,0 +1,44 @@
+[
+    {
+        "ParameterKey": "ParentVPCStack",
+        "ParameterValue": "VPCStack"
+    },
+    {
+        "ParameterKey": "ParentKmsKeyStack",
+        "ParameterValue": "KMSHAStack"
+    },
+    {
+        "ParameterKey": "ParentAuroraStack",
+        "ParameterValue": "AuroraHAProvisionedStack"
+    },
+    {
+        "ParameterKey": "ParentClientStack",
+        "ParameterValue": "DBClientSGStack"
+    },
+    {
+        "ParameterKey": "DBStack",
+        "ParameterValue": "AuroraHAProvisionedStack"
+    },
+    {
+        "ParameterKey": "DMSInstanceClass",
+        "ParameterValue": "dms.t3.micro"
+    },
+    {
+        "ParameterKey": "SourceDBUsername",
+        "ParameterValue": "homeassistant"
+    },
+    {
+        "ParameterKey": "SourceDBUserPassword",
+        "ParameterValue": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    {
+        "ParameterKey": "SourceDBName",
+        "ParameterValue": "mrvhomeassistantdb"
+    },
+    {
+        "ParameterKey": "SourceDBServer",
+        "ParameterValue": "192.168.255.6"
+    }
+
+    
+]

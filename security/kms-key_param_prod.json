@@ -1,0 +1,10 @@
+[
+    {
+        "ParameterKey": "ParentAlertStack",
+        "ParameterValue": "AlertsStack"
+    },
+    {
+        "ParameterKey": "Environment",
+        "ParameterValue": "Production"
+    }
+]

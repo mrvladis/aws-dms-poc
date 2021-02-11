@@ -1,0 +1,10 @@
+[
+    {
+        "ParameterKey": "ClassB",
+        "ParameterValue": "128"
+    },
+    {
+        "ParameterKey": "Environment",
+        "ParameterValue": "Production"
+    }
+]

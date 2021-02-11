@@ -1,0 +1,38 @@
+[
+    {
+        "ParameterKey": "ParentVPCStack",
+        "ParameterValue": "VPCStack"
+    },
+    {
+        "ParameterKey": "DBClientSGStack",
+        "ParameterValue": "DBClientSGStack"
+    },
+    {
+        "ParameterKey": "ParentKmsKeyStack",
+        "ParameterValue": "KMSHAStack"
+    },
+    {
+        "ParameterKey": "ParentAlertStack",
+        "ParameterValue": "AlertsStack"
+    }, 
+    {
+        "ParameterKey": "EngineVersion",
+        "ParameterValue": "5.7.mysql-aurora.2.07.1"
+    },
+    {
+        "ParameterKey": "DBName",
+        "ParameterValue": "homeassistantaws"
+    },
+    {
+        "ParameterKey": "DBBackupRetentionPeriod",
+        "ParameterValue": "30"
+    },
+    {
+        "ParameterKey": "DBMasterUsername",
+        "ParameterValue": "dbuser"
+    },
+    {
+        "ParameterKey": "DBMasterUserPassword",
+        "ParameterValue": "xxxxxxxxxxxxxxxxxxx"
+    }
+]

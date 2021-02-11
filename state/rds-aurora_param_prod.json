@@ -1,0 +1,38 @@
+[
+    {
+        "ParameterKey": "ParentVPCStack",
+        "ParameterValue": "VPCStack"
+    },
+    {
+        "ParameterKey": "ParentClientStack",
+        "ParameterValue": "DBClientSGStack"
+    },
+    {
+        "ParameterKey": "ParentKmsKeyStack",
+        "ParameterValue": "KMSHAStack"
+    },
+    {
+        "ParameterKey": "ParentAlertStack",
+        "ParameterValue": "AlertsStack"
+    }, 
+    {
+        "ParameterKey": "Engine",
+        "ParameterValue": "5.7.mysql-aurora.2.04.3"
+    },
+    {
+        "ParameterKey": "DBInstanceClass",
+        "ParameterValue": "db.r3.xlarge"
+    },
+    {
+        "ParameterKey": "DBName",
+        "ParameterValue": "mysuperdbauroraprov"
+    },
+    {
+        "ParameterKey": "DBBackupRetentionPeriod",
+        "ParameterValue": "30"
+    },
+    {
+        "ParameterKey": "DBMasterUsername",
+        "ParameterValue": "DBUser"
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "ParameterKey": "ParentAlertStack",
+        "ParameterValue": "AlertsStack"
+    },
+    {
+        "ParameterKey": "Environment",
+        "ParameterValue": "Production"
+    },
+    {
+        "ParameterKey": "CloudWatchLogsRetentionInDays",
+        "ParameterValue": "90"
+    }
+    
+]
